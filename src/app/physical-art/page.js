@@ -72,7 +72,7 @@ const artworks = [
     title: 'The Black Widow',
     year: '2025',
     dimensions: ' 50 x 40.3 x 2.1cm (framed) )  ',
-    medium: 'Acrylic and charcoal on canvas',
+    medium: 'charcoal and graphite on canvas',
     description:
       'The Black Widow is a metonymy for the Black Widow spider. It shows a divine feminine energy, which drives intuition and creativity. Here, you will either become consumed by your shadow, or weave yourself into it, see it for what it is, and carve out the little light left in you in order to find your pathway.',
     images: [Art5, Art5Physical],
@@ -81,7 +81,7 @@ const artworks = [
     title: 'Figuring it Out',
     year: '2025',
     dimensions: ' 50 x 40.3 x 2.1cm (framed)   ',
-    medium: 'Acrylic and charcoal on canvas',
+    medium: 'charcoal and graphite on canvas',
     description:
       'From graduating college, to finding your path, to reinventing your path. From losing friends and making new ones. From loving hard to feeling detached. From living out loud, to finding peace in solitude. We all are just trying to figure it out. Never too late and never too early. ',
     images: [Art6, Art6Physical],
@@ -90,7 +90,7 @@ const artworks = [
     title: 'Time is Running Out of Me',
     year: '2025',
     dimensions: ' 50 x 40.3 x 2.1cm (framed)   ',
-    medium: 'Acrylic and charcoal on canvas',
+    medium: 'charcoal and graphite on canvas',
     description:
       '“Time waits for no one,” they say. But I wait for things to pass me by. I procrastinate the things that would bring me joy. Not because I am lazy, but because I just love to wait. Wait, waiting until I fade away',
     images: [Art7, Art7Physical],
@@ -99,7 +99,7 @@ const artworks = [
     title: 'The Ego (Ego Alive)',
     year: '2025',
     dimensions: ' 50 x 40.3 x 2.1cm (framed)   ',
-    medium: 'Acrylic and charcoal on canvas',
+    medium: 'charcoal and graphite on canvas',
     description:
       ' Ego Alive’ shows the existence of the ego, which takes the form of a large shadow. This shadow covers us, protects us from harm and also ourselves. But we often turn against it and use its powers to elevate our pride, and justify our self-betrayal. This goes on, until it consumes us, and the people around us, till we become blind to its lingering existence, forever.  ',
     images: [Art8, Art8Physical],
@@ -363,7 +363,7 @@ export default function PhysicalArt() {
 
                   {/* CONTACT BUTTON */}
                   <a
-                    href={`mailto:info@battregen.com?subject=Enquiry%20about%20${encodeURIComponent(
+                    href={`mailto:favorleoart@gmail.com?subject=Enquiry%20about%20${encodeURIComponent(
                       artwork.title
                     )}`}
                     className="inline-block mt-8 bg-green text-dark font-medium px-6 py-3 rounded-lg hover:opacity-90 transition"
